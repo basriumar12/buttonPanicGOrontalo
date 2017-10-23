@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kontak Penting Gorontalo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="kontak_penting_gorontalo">Kontak Penting Gorontalo</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7486974203577954/9008922995</string>
+</resources>

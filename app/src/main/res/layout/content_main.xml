@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MainActivity"
+
+    tools:showIn="@layout/app_bar_main">
+
+
+
+  <include layout="@layout/contentslide"
+      android:id="@+id/content1212"></include>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_gravity="center"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_below="@+id/content1212"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="198dp"
+        android:layout_marginEnd="198dp">
+    </com.google.android.gms.ads.AdView>
+  <ListView
+      android:layout_marginTop="6dp"
+      android:layout_below="@+id/adView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/listViewTempat"></ListView>
+
+
+</RelativeLayout>

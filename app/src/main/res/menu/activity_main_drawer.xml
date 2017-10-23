@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_g_translate_black_24dp"
+            android:title="Kamus Gorontalo" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Daftar Nomor Telpon" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_pages_black_24dp"
+            android:title="Official Web Kota Gorontalo" />
+
+
+</menu>
